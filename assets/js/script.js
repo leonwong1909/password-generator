@@ -10,7 +10,7 @@ $(document).ready(function () {
     var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
     var numberChars = "0123456789";
-    var symbolChars = "!@#$%^&*()_-+={}[]|\\:;\"'<>,.?/";
+    var symbolChars = "@#$";
 
     var chars = "";
     if (includeUppercase) chars += uppercaseChars;
